@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background: rgba(242, 242, 242, 0.438);
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 60px 30px;
+  width: 80%;
+  height: 100vh;
+}
+
+.title {
+  margin: 0 0 50px 0;
+  text-align: center;
+  color: rgb(21, 25, 24);
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  color: rgb(72, 82, 79);
+  font-size: 24px;
+  background: #d6efe962;
+  border-color: rgb(112, 128, 124);
+  box-shadow: 0 0.5px 1px rgb(112, 128, 124);
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .6;
+  border-color: rgb(134, 226, 43);
+}
+
+.vowel {
+  color: rgb(252, 22, 22);
+  border-color: rgb(252, 22, 22);
+}
+
+.consonant {
+  color: blue;
+  border-color: rgb(0, 0, 194);
+}
+
+.set {
+  color: rgb(1, 158, 1);
+  border-color: rgb(0, 105, 0);
+}
+
+.img {
+  display: inline-block;
+  width: 90%;
+  height: 820px;
+  margin-bottom: 30px;
+  background: url("../img/dzayn-bax.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 568px) {
+  #root {
+    width: 100%;
+    padding: 2px;
+  }
+}
