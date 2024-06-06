@@ -52,7 +52,14 @@ img {
 
 .btn:hover {
   opacity: .6;
-  border-color: rgb(134, 226, 43);
+}
+
+.btn:focus {
+  opacity: .6;
+}
+
+.btn:active {
+  opacity: .6;
 }
 
 .vowel {
